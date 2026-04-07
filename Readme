@@ -1,0 +1,144 @@
+ 🚀 ZIP Extractor PRO
+
+A powerful and user-friendly **Python GUI tool** to recursively extract ZIP files, organize them automatically, and optionally delete ZIP files after extraction.
+
+---
+✨ Features
+
+* 📂 Recursively scans folders and subfolders
+* 📦 Extracts all ZIP files automatically
+* 📁 Creates organized folders (same name as ZIP)
+* 🗑 Option to delete ZIP files after extraction
+* ⚡ Fast and smooth (non-blocking UI using threading)
+* 📊 Real-time progress bar and statistics
+* 📝 Live logs with status updates
+* 🎨 Clean and modern dark UI
+
+---
+
+ 🖥️ Preview
+
+* Select input folder
+* Optional output folder
+* Enable delete option
+* Click **Start 🚀**
+* Watch progress + logs in real-time
+
+---
+
+ 📦 Installation
+
+ 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/zip-extractor-pro.git
+cd zip-extractor-pro
+```
+
+### 2. Install requirements
+
+No external libraries required ✅
+(Uses built-in Python modules)
+
+---
+
+ ▶️ Usage
+
+Run the application:
+
+```bash
+python unzip_gui.py
+```
+
+---
+
+⚙️ How It Works
+
+1. Select a main folder
+2. The app scans for all `.zip` files
+3. Each ZIP is extracted into a folder with the same name
+4. Progress is displayed in real-time
+5. Optionally deletes ZIP files after extraction
+
+---
+
+ 📊 Output Example
+
+### Before:
+
+```
+D:\SOFTCORE PART-B\
+ ├── folder1\
+ │    ├── data.zip
+```
+
+After:
+
+```
+D:\SOFTCORE PART-B\
+ ├── folder1\
+ │    ├── data\
+ │         ├── extracted files...
+```
+
+---
+
+ 📈 Stats Summary
+
+After completion, you will see:
+
+* Total ZIP files
+* Extracted files
+* Skipped files
+* Failed files
+* Deleted ZIPs
+
+---
+
+## ⚠️ Important Notes
+
+* ❗ Close ZIP files before running
+* ❗ Use **Delete option carefully** (files are permanently removed)
+* ❗ Run as administrator if facing permission issues
+
+---
+ 🛠 Tech Stack
+
+* Python 🐍
+* Tkinter (GUI)
+* Threading (Performance)
+* Zipfile (Extraction)
+
+---
+
+ 🔮 Future Improvements
+
+* 📊 Progress percentage + time estimation
+* 📁 Drag & drop support
+* ⚡ Multi-threaded extraction
+* 📄 Export logs to CSV/Excel
+* 🎨 Advanced UI (CustomTkinter)
+
+---
+
+ 🤝 Contributing
+
+Contributions are welcome!
+Feel free to fork this repo and submit a pull request.
+
+---
+📄 License
+
+This project is open-source and available under the MIT License.
+
+---
+
+ 💡 Author
+
+Made with ❤️ by **Jenil's Tech**
+
+---
+
+⭐ Support
+
+If you like this project, don’t forget to ⭐ the repo!
